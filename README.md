@@ -1,5 +1,7 @@
 # AI Resume Search & Candidate Ranking System
 
+An AI-powered recruiting platform that uses Retrieval-Augmented Generation (RAG), vector search, OpenAI embeddings, and Cohere reranking to evaluate resumes against job descriptions and rank candidates based on skill alignment.
+
 ## Highlights
 
 - Built a Retrieval-Augmented Generation (RAG) recruiting platform using Django, PostgreSQL, pgvector, OpenAI Embeddings, and Cohere Rerank.
@@ -17,14 +19,16 @@
 - Docker deployment
 
 ## Tech Stack
-- Python
-- Django REST Framework
-- PostgreSQL
-- pgvector
-- OpenAI Embeddings
-- Cohere Rerank
-- AWS S3
-- Docker
+
+**Backend:** Python, Django REST Framework
+
+**Database:** PostgreSQL, pgvector
+
+**AI/LLM:** OpenAI Embeddings, Cohere Rerank, RAG
+
+**Cloud:** AWS S3
+
+**Infrastructure:** Docker
 
 ## Architecture
 
@@ -38,6 +42,19 @@ POST /api/search-resume/
 POST /api/ask/
 POST /api/match-job/
 POST /api/rank-candidates/
+```
+
+## Environment Variables
+
+Create `backend/.env` using `backend/.env.example` and provide:
+
+```env
+OPENAI_API_KEY=
+COHERE_API_KEY=
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_STORAGE_BUCKET_NAME=
+AWS_S3_REGION_NAME=
 ```
 
 ## Running Locally
@@ -78,3 +95,11 @@ http://localhost:8000
 ## Candidate Q&A
 
 ![Candidate Q&A](docs/images/candidate-question-answering.png)
+
+## Evaluation
+
+Evaluated retrieval and answer quality using RAGAS:
+
+- Context Precision: 1.00
+- Context Recall: 1.00
+- Faithfulness: 0.97
