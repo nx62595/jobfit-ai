@@ -1,0 +1,80 @@
+[
+  {
+    "user_input": "Does this candidate know Python?",
+    "retrieved_contexts": [
+      "Maya Chen\nSan Jose, CA | maya.chen@example.com | github.com/mayachen\nProfessional Summary\nSoftware engineer with experience building backend APIs, frontend interfaces, and cloud-deployed applications using\nPython, JavaScript, Django, React, and PostgreSQL.\nSkills\nPython, JavaScript, React, Django, REST APIs, PostgreSQL, Docker, AWS EC2, Git\nExperience\nSoftware Engineer\n\u007f Developed REST APIs using Django and PostgreSQL to support user authentication, profile management, and transaction\nworkflows.\n\u007f Built responsive React components for dashboards, forms, and user management interfaces.\n\u007f Containerized backend services with Docker and deployed application services to AWS EC2.\nProjects\n\u007f TaskFlow - Built a task management application using Django REST Framework, React, PostgreSQL, and JWT\naut",
+      "ow - Built a task management application using Django REST Framework, React, PostgreSQL, and JWT\nauthentication.\n\u007f API Monitor - Created a Python monitoring tool that tracked API latency, error rates, and uptime.\nEducation\nB.S. Computer Science, California State University, 2024\n"
+    ],
+    "response": "Yes, the candidate knows Python, as indicated by their skills and experience developing REST APIs using Django (a Python framework) and creating a Python monitoring tool in their projects.",
+    "reference": "Yes. The resume lists Python.",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.9462304087107355,
+    "context_precision": 0.99999999995,
+    "context_recall": 1.0
+  },
+  {
+    "user_input": "Does this candidate have backend experience?",
+    "retrieved_contexts": [
+      "Maya Chen\nSan Jose, CA | maya.chen@example.com | github.com/mayachen\nProfessional Summary\nSoftware engineer with experience building backend APIs, frontend interfaces, and cloud-deployed applications using\nPython, JavaScript, Django, React, and PostgreSQL.\nSkills\nPython, JavaScript, React, Django, REST APIs, PostgreSQL, Docker, AWS EC2, Git\nExperience\nSoftware Engineer\n\u007f Developed REST APIs using Django and PostgreSQL to support user authentication, profile management, and transaction\nworkflows.\n\u007f Built responsive React components for dashboards, forms, and user management interfaces.\n\u007f Containerized backend services with Docker and deployed application services to AWS EC2.\nProjects\n\u007f TaskFlow - Built a task management application using Django REST Framework, React, PostgreSQL, and JWT\naut",
+      "ow - Built a task management application using Django REST Framework, React, PostgreSQL, and JWT\nauthentication.\n\u007f API Monitor - Created a Python monitoring tool that tracked API latency, error rates, and uptime.\nEducation\nB.S. Computer Science, California State University, 2024\n"
+    ],
+    "response": "Yes, Maya Chen has backend experience, demonstrated by developing REST APIs using Django and PostgreSQL, as well as building backend services for projects like TaskFlow using Django REST Framework.",
+    "reference": "Yes. The candidate has backend experience with Django, PostgreSQL, and REST APIs.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.705077575137832,
+    "context_precision": 0.99999999995,
+    "context_recall": 1.0
+  },
+  {
+    "user_input": "Does this candidate have machine learning experience?",
+    "retrieved_contexts": [
+      "Elena Rodriguez\nAustin, TX | elena.rodriguez@example.com | github.com/elenar\nProfessional Summary\nMachine learning engineer focused on NLP, model evaluation, data pipelines, and production ML systems.\nSkills\nPython, PyTorch, TensorFlow, Scikit-learn, Pandas, FastAPI, Docker, AWS S3, MLflow\nExperience\nMachine Learning Engineer\n\u007f Built NLP classification pipelines for support ticket routing using transformer models and Scikit-learn baselines.\n\u007f Deployed FastAPI model services with Docker and monitored prediction latency and model performance.\n\u007f Implemented experiment tracking with MLflow to compare model accuracy, precision, recall, and F1 scores.\nProjects\n\u007f LLM Benchmarking Platform - Compared GPT, Claude, Gemini, and Llama models across accuracy, latency, and cost.\n\u007f Document Classifier - ",
+      "d GPT, Claude, Gemini, and Llama models across accuracy, latency, and cost.\n\u007f Document Classifier - Trained a text classifier to route documents by topic using embeddings and logistic regression.\nEducation\nM.S. Data Science, University of Texas at Austin, 2025\n"
+    ],
+    "response": "Yes, Elena Rodriguez has machine learning experience, demonstrated by building NLP classification pipelines using transformer models and Scikit-learn, deploying model services with FastAPI and Docker, and implementing experiment tracking with MLflow for model evaluation.",
+    "reference": "Yes. The candidate has machine learning and NLP experience.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7075620088502939,
+    "context_precision": 0.99999999995,
+    "context_recall": 1.0
+  },
+  {
+    "user_input": "Does this candidate know SQL?",
+    "retrieved_contexts": [
+      "Jordan Patel\nFremont, CA | jordan.patel@example.com | linkedin.com/in/jordanpatel\nProfessional Summary\nData analyst experienced in SQL, Python, dashboards, statistical analysis, and business intelligence reporting.\nSkills\nPython, SQL, R, Tableau, Power BI, Excel, Pandas, NumPy, PostgreSQL\nExperience\nData Analyst\n\u007f Created SQL queries and Power BI dashboards to track sales, retention, and customer engagement metrics.\n\u007f Automated weekly reporting workflows using Python and Excel, reducing manual reporting time by 60%.\n\u007f Analyzed customer churn trends and presented recommendations to improve retention.\nProjects\n\u007f Customer Churn Analysis - Built logistic regression and random forest models to identify churn drivers.\n\u007f Sales Dashboard - Developed Tableau dashboards showing revenue, conversion, ",
+      "entify churn drivers.\n\u007f Sales Dashboard - Developed Tableau dashboards showing revenue, conversion, and regional sales trends.\nEducation\nB.S. Statistics, University of California, Davis, 2023\n"
+    ],
+    "response": "Yes, this candidate knows SQL, as they have experience creating SQL queries to track sales, retention, and customer engagement metrics.",
+    "reference": "Yes. The candidate lists SQL or database experience.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  {
+    "user_input": "Does this candidate have cloud experience?",
+    "retrieved_contexts": [
+      "Aisha Williams\nDenver, CO | aisha.williams@example.com | github.com/aishaw\nProfessional Summary\nDevOps engineer experienced with CI/CD pipelines, Linux systems, cloud infrastructure, Docker, Kubernetes, and\nmonitoring.\nSkills\nLinux, Docker, Kubernetes, AWS EC2, AWS S3, Terraform, GitHub Actions, Prometheus, Python\nExperience\nDevOps Engineer\n\u007f Built CI/CD pipelines using GitHub Actions to automate testing, building, and deployment workflows.\n\u007f Managed Dockerized services on AWS EC2 and configured Nginx reverse proxies for production applications.\n\u007f Implemented monitoring dashboards with Prometheus and Grafana to track CPU, memory, latency, and error rates.\nProjects\n\u007f Infrastructure Automation - Provisioned AWS resources using Terraform and documented deployment workflows.\n\u007f Containerized We",
+      " - Provisioned AWS resources using Terraform and documented deployment workflows.\n\u007f Containerized Web App - Dockerized a Django application with PostgreSQL and deployed it to a Linux server.\nEducation\nB.S. Information Systems, University of Colorado Boulder, 2023\n"
+    ],
+    "response": "Yes, Aisha Williams has cloud experience, specifically with AWS services such as AWS EC2 and AWS S3, and has provisioned AWS resources using Terraform as noted in her Infrastructure Automation project.",
+    "reference": "Yes. The candidate has AWS or cloud infrastructure experience.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.616575516999429,
+    "context_precision": 0.99999999995,
+    "context_recall": 1.0
+  },
+  {
+    "user_input": "Does this candidate have RAG experience?",
+    "retrieved_contexts": [
+      "Kevin Brooks\nSeattle, WA | kevin.brooks@example.com | linkedin.com/in/kevinbrooks\nProfessional Summary\nProduct manager with experience defining roadmap, analyzing user behavior, coordinating cross-functional teams, and\nlaunching SaaS features.\nSkills\nProduct Strategy, User Research, SQL, A/B Testing, Jira, Figma, Analytics, Roadmapping\nExperience\nProduct Manager\n\u007f Defined product requirements and coordinated engineering, design, and QA teams for SaaS dashboard launches.\n\u007f Used SQL and analytics dashboards to evaluate feature adoption, retention, and user conversion.\n\u007f Prioritized roadmap features based on customer feedback, business impact, and engineering effort.\nProjects\n\u007f Self-Serve Analytics Dashboard - Led requirements for a customer analytics dashboard used by account managers.\n\u007f Onb",
+      "tics Dashboard - Led requirements for a customer analytics dashboard used by account managers.\n\u007f Onboarding Experiment - Designed A/B tests that improved activation rate by 18%.\nEducation\nB.A. Economics, University of Washington, 2022\n"
+    ],
+    "response": "I cannot determine this from the resume.",
+    "reference": "I cannot determine this from the resume.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "context_precision": 0.99999999995,
+    "context_recall": 1.0
+  }
+]
