@@ -31,3 +31,15 @@ POST /api/rank-candidates/
 
 ## Running Locally
 docker compose up --build
+
+## Resume Upload
+
+![Resume Upload](docs/images/resume-upload-api.png)
+
+## Candidate Ranking
+
+![Candidate Ranking](docs/images/candidate-ranking-results.png)
+
+## Candidate Q&A
+
+![Candidate Q&A](docs/images/candidate-question-answering.png)
